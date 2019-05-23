@@ -6,8 +6,6 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
-<link rel="stylesheet" type="text/css" media="all" href="all.css">
-<link rel="stylesheet" type="text/css" media="only screen and (min-width: 630px)" href="two-cols.css">
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #ffdb58;
