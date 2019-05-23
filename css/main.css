@@ -1878,39 +1878,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover; }
   .home-banner-area .banner-img {
     text-align: right; }
-    @media all and (min-width: 630px) {
-  /* two column code */
-  #container {
-    display: flex ;
-    align-items: stretch ;
-    flex-flow: row wrap ;
-  }
-  #navbar {
-    order: 1 ;
-    width: 20%;
-  }
-  #content {
-    order: 2 ;
-    width: 80% ;
-  }
-}
-@media all and (max-width: 629px) {
-  /* one column code */
-  #container {
-    display: flex ;
-    align-items: stretch ;
-    flex-flow: column wrap ;
-  }
-  #navbar {
-    order: 2 ;
-    width: 100%;
-  }
-  #content {
-    order: 1 ;
-    width: 100% ;
-  }
-}
-
+   @media (max-width: 1440px) {
+      .home-banner-area .banner-img {
+        text-align: left; }
+        .home-banner-area .banner-img img {
+          width: 60%; } }
+    @media (max-width: 991px) {
+      .home-banner-area .banner-img {
+        text-align: center; } }
+    @media (max-width: 600px) {
+      .home-banner-area .banner-img {
+        display: none; } }
+  @media (max-width: 991px) {
+    .home-banner-area .fullscreen {
+      height: 700px !important; } }
 .banner-area {
   background: url(../img/faq.jpg) center;
   background-size: cover; }
