@@ -1886,7 +1886,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     @media (max-width: 991px) {
       .home-banner-area .banner-img {
         text-align: center; } }
-    @media (max-width: 600px) {
+    @media (max-width: 767px) {
       .home-banner-area .banner-img {
         display: none; } }
   @media (max-width: 991px) {
